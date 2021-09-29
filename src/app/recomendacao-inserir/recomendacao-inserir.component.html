@@ -1,0 +1,15 @@
+<div class="container">
+  <div class="row">
+    <div class="form-group">
+      <h4 for="nomeInput">Recomendar !</h4>
+      <textarea type="text-area" class="form-control" placeholder="deixe sua contribuição aqui..."
+        id="recomendacaoInput" #recomendacaoInput></textarea>
+    </div>
+
+
+    <button class="btn btn-outline-dark mt-4" (click)="adicionar(recomendacaoInput.value)"
+      type="button">Adicionar</button>
+
+
+  </div>
+</div>
